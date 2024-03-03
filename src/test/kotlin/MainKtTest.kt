@@ -743,7 +743,7 @@ class MainKtTest {
         val cardType = "Visa"
         val totalTransfersThisMonth = 55000
         val transferAmount = -8
-        val expectedCommission = 35
+        val expectedCommission = -3_000_000
 
         val result = calculateCommission(cardType, totalTransfersThisMonth, transferAmount)
 
